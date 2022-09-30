@@ -1,0 +1,5 @@
+<launch>
+    <node name ="radiua_squared" pkg ="ros_tutorial" type ="radius_squarer.py" />
+    <node name ="cylinder_calc" pkg ="ros_tutorial" type ="cylinder_calc.py" />   
+    <node name ="weight_calc" pkg ="ros_tutorial" type ="weight_calc.py" />   
+</launch>
